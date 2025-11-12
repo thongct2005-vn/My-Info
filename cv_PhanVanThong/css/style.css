@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cv-container {
+  display: flex;
+  width: 900px;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* LEFT SIDEBAR */
+.left {
+  width: 30%;
+  background: #2b3a4a;
+  color: white;
+  padding: 25px;
+}
+
+.left img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.info i {
+  color: #bbbbbb;
+  width: 18px;
+  text-align: center;
+  margin-right: 6px;
+}
+
+.section-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  margin: 20px 0 10px;
+  padding-bottom: 5px;
+}
+
+.skills, .hobbies {
+  margin-top: 10px;
+}
+
+.skill-bar {
+  background: rgba(255,255,255,0.2);
+  height: 6px;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+
+.skill-fill {
+  background: #fff;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.hobbies {
+  margin-left: 15px;
+}
+
+/* RIGHT SIDE */
+.right {
+  width: 70%;
+  padding: 30px;
+}
+
+.block {
+  margin-bottom: 25px;
+}
+
+/* ICON TRÒN MÀU XÁM */
+.block h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2b3a4a;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.icon-right {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: #2f3a4a;
+  border-radius: 50%;
+}
+
+.icon-right i {
+  color: #fff;
+  font-size: 16px;
+}
+
+.block-item {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.block-item h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.block-item h3 span {
+  font-size: 13px;
+  color: #888;
+  white-space: nowrap;
+}
+
+.block-item p {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #333;
+}
+.white-link {
+  color: white;        /* màu chữ trắng */
+  text-decoration: none; /* bỏ gạch chân */
+}
